@@ -1,19 +1,20 @@
-public class classs
+class student
 {
- static   class student
+    int id;
+    String name;
+}
+    public class classs
     {
-        int id;
-        String name;
-    }
-    public static  class Teststudent
-    {
+    
         public static void main(String[]args)
         {
+        
             student s1 = new student();
             s1.id=101;
+            s1.name="Muhammad Ershan H S";
+            System.out.println(s1.name);
             System.out.println(s1.id);
         }
 
         
     }
-}
